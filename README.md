@@ -1,10 +1,16 @@
 # Primeros pasos con la aplicación Create React
 
 Este proyecto se inició con [Crear aplicación React] (https://github.com/facebook/create-react-app).
+El proyecto cuanta con una Arquitectura Hexagonal bajo el lenguaje de typescript.
 
 ## Scripts disponibles
 
 En el directorio del proyecto, puedes ejecutar
+
+Es recomendando empezar por el arranque de nuestro servidor.
+### `npm run server` Json Server
+
+El proyecto cuenta con el paquete JsonServer, que nos permite tener una emulación de un servidor backend donde nos permitira realizar peticiónes.
 
 ### `npm start`
 
@@ -20,10 +26,6 @@ Esto levantara nuestro proyecto desde una imagen docker configurada en el docker
 ### `npm test` Jest test
 
 Lanza el ejecutor de pruebas en el modo de vigilancia interactiva.\_## `npm test`.
-
-### `npm run server` Json Server
-
-El proyecto cuenta con el paquete JsonServer, que nos permite tener una emulación de un servidor backend donde nos permitira realizar peticiónes.
 
 ### `npm run build`
 
