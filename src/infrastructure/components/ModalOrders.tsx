@@ -89,7 +89,7 @@ const ModalOrders = (props: { order: Order | null }) => {
                 >
                   <th
                     scope="row"
-                    className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                    className="px-6 py-4 font-medium dark:bg-gray-700 dark:text-gray-400 text-gray-900 whitespace-nowrap"
                   >
                     {order.reference}
                   </th>

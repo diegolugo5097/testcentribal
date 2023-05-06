@@ -64,12 +64,12 @@ export const ProductList: React.FC<ProductListProps> = ({
         <tbody>
           {products.map((product, index) => (
             <tr
-              className="hover:bg-gray-50 cursor-pointer bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              className="hover:bg-gray-50 cursor-pointer bg-white border-b dark:bg-gray-600 dark:border-gray-700"
               key={index}
             >
               <th
                 scope="row"
-                className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+                className="px-6 py-4 font-medium dark:bg-gray-700 dark:text-gray-400 text-gray-900 whitespace-nowrap"
               >
                 {product.reference}
               </th>
