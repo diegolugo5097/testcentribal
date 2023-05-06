@@ -21,7 +21,7 @@ La página se recargará cuando realices cambios.
 También puedes ver cualquier error de lint en la consola.
 
 ### `docker-compose up`
-Esto levantara nuestro proyecto desde una imagen docker configurada en el docker-compose.yml
+Esto levantara nuestro proyecto desde una imagen docker configurada en el docker-compose.yml una vez termine. Abre [http://localhost:3000](http://localhost:3000)
 
 ### `npm test` Jest test
 
