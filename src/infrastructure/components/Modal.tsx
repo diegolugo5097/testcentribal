@@ -34,8 +34,19 @@ const ModalView = (props: { nameButton: string }) => {
   const setOnSave = useSetRecoilState(onSaveState);
 
   useEffect(() => {
-    if (product.id !== undefined) {
-      setPostData(product);
+    if (modalIsOpen) {
+      if (product.id !== undefined) {
+        setPostData(product);
+      }
+    } else {
+      setPostData({
+        id: "",
+        reference: "",
+        title: "",
+        description: "",
+        price: "",
+        tax: "",
+      });
     }
   }, [product.id]);
 
@@ -68,6 +79,7 @@ const ModalView = (props: { nameButton: string }) => {
       </button>
       <Modal
         isOpen={modalIsOpen}
+        ariaHideApp={false}
         onRequestClose={closeModal}
         style={customStyles}
       >

@@ -79,14 +79,13 @@ export const ProductList: React.FC<ProductListProps> = ({
               <td className="px-6 py-4 flex gap-1">
                 <button
                   className="bg-white px-4 py-3 rounded border-2 hover:bg-gray-200"
-                  onClick={() => {
-                    onSelectProduct(product);
-                    setId(product.id);
-                  }}
+                  onClick={() => onSelectProduct(product)}
                 >
                   {t("button.add")}
                 </button>
-                <ModalView nameButton={t("button.edit")} />
+                <button onClick={() => setId(product.id)}>
+                  <ModalView nameButton={t("button.edit")} />
+                </button>
               </td>
             </tr>
           ))}
