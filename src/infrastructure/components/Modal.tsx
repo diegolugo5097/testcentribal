@@ -88,6 +88,7 @@ const ModalView = (props: { nameButton: string }) => {
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               value={postData.reference}
+              required
               name="reference"
               onChange={(e) =>
                 setPostData({ ...postData, reference: e.target.value })
@@ -99,6 +100,7 @@ const ModalView = (props: { nameButton: string }) => {
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               value={postData.title}
+              required
               name="title"
               onChange={(e) =>
                 setPostData({ ...postData, title: e.target.value })
@@ -110,6 +112,7 @@ const ModalView = (props: { nameButton: string }) => {
             <textarea
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               value={postData.description}
+              required
               name="description"
               onChange={(e) =>
                 setPostData({ ...postData, description: e.target.value })
@@ -121,6 +124,7 @@ const ModalView = (props: { nameButton: string }) => {
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               value={postData.price}
+              required
               name="price"
               type="number"
               onChange={(e) =>
@@ -133,6 +137,7 @@ const ModalView = (props: { nameButton: string }) => {
             <input
               className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
               value={postData.tax}
+              required
               name="tax"
               type="number"
               onChange={(e) =>
