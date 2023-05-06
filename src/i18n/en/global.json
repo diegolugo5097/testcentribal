@@ -1,0 +1,22 @@
+{
+  "th": {
+    "reference": "Reference",
+    "title": "Title",
+    "price": "Price",
+    "description": "Description",
+    "tax": "Tax",
+    "actions": "Actions"
+  },
+  "button": {
+    "add": "Add Product",
+    "edit": "Edit",
+    "seeOrder": "See Order(s)",
+    "save": "Save"
+  },
+  "label": {
+    "orderTitle": "Orders",
+    "totalNoTax": "Total no-tax",
+    "totalTax": "Total with-tax",
+    "titleManager": "Product Manager"
+  }
+}

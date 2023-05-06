@@ -1,0 +1,28 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "reference": "ASD122",
+      "title": "product 3",
+      "description": "Description product 1",
+      "price": "33",
+      "tax": 19
+    },
+    {
+      "id": "2",
+      "reference": "ASD124",
+      "title": "product 2",
+      "description": "Description product 1",
+      "price": 30,
+      "tax": 19
+    },
+    {
+      "id": "GUyUgRA",
+      "reference": "ASD123",
+      "title": "Product 1",
+      "description": "Description product 1",
+      "price": "29",
+      "tax": "19"
+    }
+  ]
+}

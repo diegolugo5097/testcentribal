@@ -10,17 +10,26 @@
     "@types/node": "^16.18.25",
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.3",
+    "@types/react-modal": "^3.16.0",
+    "@types/uuid": "^9.0.1",
+    "i18next": "^22.4.15",
+    "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^12.2.2",
+    "react-modal": "^3.16.1",
     "react-scripts": "5.0.1",
+    "recoil": "^0.7.7",
     "typescript": "^4.9.5",
+    "uuid": "^9.0.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --watch ./src/api/database.json --port 3004"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +48,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
   }
 }

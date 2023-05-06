@@ -1,0 +1,22 @@
+{
+  "th": {
+    "reference": "Referencia",
+    "title": "Titulo",
+    "price": "Precio",
+    "description": "Descripcion",
+    "tax": "Impuesto",
+    "actions": "Acciones"
+  },
+  "button": {
+    "add": "Agregar",
+    "edit": "Editar",
+    "seeOrder": "Ver pedido(s)",
+    "save": "Guardar"
+  },
+  "label": {
+    "orderTitle": "Pedidos",
+    "totalNoTax": "Total sin impuesto",
+    "totalTax": "Total con impuesto",
+    "titleManager": "Gestion de Producto"
+  }
+}
